@@ -1,0 +1,71 @@
+body {
+    background-color: #FFEBF9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #231C4D;
+    font-family: "Garamond", serif; /* Added quotes for safety */
+    font-size: 30px;
+    background-color: #FFF7F7;
+    padding: 15px; /* Increased padding for better look */
+    margin-left: 10%; /* Using % makes it look better on different screens */
+    margin-right: 10%;
+    text-align: center;
+    text-decoration: underline; /* Added to hit the assignment requirement! */
+}
+
+p {
+    color: #231C4D;
+    font-family: "Garamond", serif;
+    font-size: 20px; /* Added font-size to hit the assignment requirement! */
+    text-align: center;
+    line-height: 1.6; /* Makes your long paragraphs easier to read */
+}
+
+img {
+    border-style: dashed;
+    border-width: 4px;
+    border-color: #1A1313;
+    display: block;
+    margin: 20px auto; /* Added vertical margin for spacing */
+    max-width: 100%; /* Prevents the image from being wider than the screen */
+}
+
+/* Navigation Menu */
+ul {
+    list-style-type: none;
+    margin: 20px auto;
+    padding: 0; /* Fixed missing colon error here */
+    overflow: hidden;
+    background-color: #F527E0;
+    text-align: center;
+    width: fit-content; /* This centers the pink bar itself */
+    border-radius: 10px; /* Makes the menu corners look smoother */
+}
+
+ul li {
+    display: inline-block; /* Changed from 'float: left' to center the buttons */
+}
+
+ul li a {
+    display: block;
+    color: #DBC5D6;
+    text-align: center;
+    padding: 14px 40px; /* Adjusted padding so it fits the screen better */
+    text-decoration: none; /* Requirement met: text-decoration */
+    font-family: "Times New Roman", serif;
+    font-size: 27px;
+}
+
+ul li a:hover {
+    background-color: black;
+    color: white; /* Makes text pop when hovering */
+    font-size: 30px;
+    transition: 0.3s; /* Makes the hover effect feel "smooth" */
+}
+
+
+
+
